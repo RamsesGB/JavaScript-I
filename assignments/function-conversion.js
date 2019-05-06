@@ -16,15 +16,34 @@ myFunction();
 // };
 // anotherFunction("Example");
 
+let anotherFunction = (param) => {
+    return param;
+};
+
+console.log(anotherFunction("Arg being passed to param as Example"));
+
+
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+let add = (param1, param2) => {
+    return param1 + param2;
+};
+
+console.log(add(3,3));
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
+
+let subtract = (param1, param2) => {
+    return param1 - param2;
+}
+
+console.log(subtract(1,2));
 
 
 // Stretch
