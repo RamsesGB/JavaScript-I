@@ -5,22 +5,22 @@
 // };
 // myFunction();
 
-let myFunction = () => {
-    console.log("Function was invoked!");
-};
+// let myFunction = () => {
+//     console.log("Function was invoked!");
+// };
 
-myFunction();
+// myFunction();
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
 
-let anotherFunction = (param) => {
-    return param;
-};
+// let anotherFunction = (param) => {
+//     return param;
+// };
 
-console.log(anotherFunction("Arg being passed to param as Example"));
+// console.log(anotherFunction("Arg being passed to param as Example"));
 
 
 // let add = function (param1, param2) {
@@ -28,22 +28,22 @@ console.log(anotherFunction("Arg being passed to param as Example"));
 // };
 // add(1,2);
 
-let add = (param1, param2) => {
-    return param1 + param2;
-};
+// let add = (param1, param2) => {
+//     return param1 + param2;
+// };
 
-console.log(add(3,3));
+// console.log(add(3,3));
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
 
-let subtract = (param1, param2) => {
-    return param1 - param2;
-}
+// let subtract = (param1, param2) => {
+//     return param1 - param2;
+// }
 
-console.log(subtract(1,2));
+// console.log(subtract(1,2));
 
 
 // Stretch
